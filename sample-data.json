@@ -1,0 +1,229 @@
+{
+  "secId": "FOUSA00FS1",
+  "name": "Vanguard 500 Index Fund",
+  "legalName": "Vanguard 500 Index Fund ETF Shares",
+  "categoryName": "Large Blend",
+  "investmentType": "Equity",
+  "holdingTypeId": "EQ",
+  "inceptionDate": "2010-05-31",
+  "currency": {
+    "id": "USD",
+    "name": "US Dollar"
+  },
+  "closePrice": 425.35,
+  "dayChange": 2.15,
+  "investmentStrategy": "The investment seeks to track the performance of the S&P 500 Index that measures the investment return of large-capitalization stocks. The fund employs an indexing investment approach designed to track the performance of the Standard & Poor's 500 Index, a widely recognized benchmark of U.S. stock market performance that is dominated by the stocks of large U.S. companies.",
+  "managementCompany": "The Vanguard Group, Inc.",
+  "advisor": "Vanguard Equity Investment Group",
+  "subAdvisor": null,
+  "administrator": "Vanguard",
+  "riskRating": {
+    "effectiveDate": "2024-01-01",
+    "riskScore": 3.5,
+    "riskRating": "Average",
+    "riskScale": 5
+  },
+  "trailingPerformance": [
+    {
+      "period": "1M",
+      "return": {
+        "type": "NAV",
+        "value": 1.23
+      },
+      "asOfDate": "2024-12-30"
+    },
+    {
+      "period": "3M",
+      "return": {
+        "type": "NAV",
+        "value": 4.56
+      },
+      "asOfDate": "2024-12-30"
+    },
+    {
+      "period": "1Y",
+      "return": {
+        "type": "NAV",
+        "value": 15.23
+      },
+      "asOfDate": "2024-12-30"
+    },
+    {
+      "period": "3Y",
+      "return": {
+        "type": "NAV",
+        "value": 35.67
+      },
+      "asOfDate": "2024-12-30"
+    },
+    {
+      "period": "5Y",
+      "return": {
+        "type": "NAV",
+        "value": 78.90
+      },
+      "asOfDate": "2024-12-30"
+    }
+  ],
+  "historicalPerformance": [
+    {
+      "year": 2023,
+      "return": 26.29
+    },
+    {
+      "year": 2022,
+      "return": -18.11
+    },
+    {
+      "year": 2021,
+      "return": 28.71
+    },
+    {
+      "year": 2020,
+      "return": 18.40
+    },
+    {
+      "year": 2019,
+      "return": 31.49
+    }
+  ],
+  "managers": [
+    {
+      "name": "John Smith",
+      "startDate": "2010-05-31",
+      "tenure": 13.5,
+      "biography": "John has over 20 years of investment experience and has been managing index funds for the past 15 years."
+    },
+    {
+      "name": "Jane Doe",
+      "startDate": "2015-03-15",
+      "tenure": 8.8,
+      "biography": "Jane is a senior portfolio manager with extensive experience in equity index fund management."
+    }
+  ],
+  "distributions": [
+    {
+      "distributionDate": "2024-03-20",
+      "exDate": "2024-03-18",
+      "recordDate": "2024-03-19",
+      "payableDate": "2024-03-21",
+      "amount": 1.25,
+      "type": "Dividend",
+      "reinvestPrice": 420.50
+    },
+    {
+      "distributionDate": "2023-12-20",
+      "exDate": "2023-12-18",
+      "recordDate": "2023-12-19",
+      "payableDate": "2023-12-21",
+      "amount": 1.18,
+      "type": "Dividend",
+      "reinvestPrice": 410.30
+    },
+    {
+      "distributionDate": "2023-09-20",
+      "exDate": "2023-09-18",
+      "recordDate": "2023-09-19",
+      "payableDate": "2023-09-21",
+      "amount": 1.15,
+      "type": "Dividend",
+      "reinvestPrice": 405.75
+    }
+  ],
+  "portfolio": {
+    "date": "2024-12-30",
+    "totalHoldings": 505,
+    "netAssets": 850000000000,
+    "holdings": [
+      {
+        "securityId": "0P000000GY",
+        "name": "Apple Inc",
+        "ticker": "AAPL",
+        "holdingType": "Equity",
+        "weight": 7.15,
+        "shares": 180000000,
+        "marketValue": 31500000000,
+        "sector": "Technology",
+        "country": "United States"
+      },
+      {
+        "securityId": "0P000002CH",
+        "name": "Microsoft Corp",
+        "ticker": "MSFT",
+        "holdingType": "Equity",
+        "weight": 6.89,
+        "shares": 85000000,
+        "marketValue": 30250000000,
+        "sector": "Technology",
+        "country": "United States"
+      },
+      {
+        "securityId": "0P00000B3T",
+        "name": "Amazon.com Inc",
+        "ticker": "AMZN",
+        "holdingType": "Equity",
+        "weight": 3.45,
+        "shares": 95000000,
+        "marketValue": 15125000000,
+        "sector": "Consumer Cyclical",
+        "country": "United States"
+      },
+      {
+        "securityId": "0P000002CH",
+        "name": "NVIDIA Corp",
+        "ticker": "NVDA",
+        "holdingType": "Equity",
+        "weight": 2.87,
+        "shares": 25000000,
+        "marketValue": 12595000000,
+        "sector": "Technology",
+        "country": "United States"
+      },
+      {
+        "securityId": "0P0000OQN8",
+        "name": "Alphabet Inc Class A",
+        "ticker": "GOOGL",
+        "holdingType": "Equity",
+        "weight": 2.12,
+        "shares": 65000000,
+        "marketValue": 9295000000,
+        "sector": "Communication Services",
+        "country": "United States"
+      }
+    ],
+    "sectors": [
+      {
+        "name": "Technology",
+        "weight": 29.5
+      },
+      {
+        "name": "Financial Services",
+        "weight": 13.2
+      },
+      {
+        "name": "Healthcare",
+        "weight": 12.8
+      },
+      {
+        "name": "Consumer Cyclical",
+        "weight": 10.5
+      },
+      {
+        "name": "Communication Services",
+        "weight": 8.7
+      }
+    ]
+  },
+  "benchmarks": [
+    {
+      "name": "S&P 500 Index",
+      "id": "S&P500",
+      "isPrimary": true
+    },
+    {
+      "name": "Russell 1000 Index",
+      "id": "RUSSELL1000",
+      "isPrimary": false
+    }
+  ]
+}
