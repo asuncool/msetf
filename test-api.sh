@@ -19,8 +19,8 @@ curl -s -X GET ${API_URL}/health | jq '.'
 echo ""
 echo ""
 
-# Test 2: Parse ETF Data
-echo "Test 2: Parse ETF Data"
+# Test 2: Parse Single ETF Data
+echo "Test 2: Parse Single ETF Data"
 echo "-------------------"
 echo "POST ${API_URL}/parse"
 echo ""
@@ -30,6 +30,20 @@ curl -s -X POST ${API_URL}/parse \
 echo ""
 echo ""
 
+# Test 3: Parse Batch ETF Data (Array format)
+echo "Test 3: Parse Batch ETF Data"
+echo "-------------------"
+echo "POST ${API_URL}/parse/batch"
+echo ""
+curl -s -X POST ${API_URL}/parse/batch \
+  -H "Content-Type: application/json" \
+  -d @sample-data-batch.json | jq '.'
+echo ""
+echo ""
+
 echo "=========================================="
 echo "Test completed!"
 echo "=========================================="
+echo ""
+echo "Note: If you receive a JSON array from Morningstar API,"
+echo "      use the /parse/batch endpoint instead of /parse"

@@ -266,6 +266,57 @@ Content-Type: application/json
 }
 ```
 
+### 批量解析 ETF 数据（数组格式）
+
+如果您的API返回的是数组格式的数据，使用批量解析端点：
+
+**请求:**
+```bash
+POST http://localhost:8080/api/etf/parse/batch
+Content-Type: application/json
+
+[
+  {
+    "secId": "FOUSA00FS1",
+    "name": "Vanguard 500 Index Fund",
+    ...
+  },
+  {
+    "secId": "FOUSA00FS2",
+    "name": "Another ETF Fund",
+    ...
+  }
+]
+```
+
+**响应:**
+```json
+{
+  "success": true,
+  "total": 2,
+  "successCount": 2,
+  "failedCount": 0,
+  "successIds": ["FOUSA00FS1", "FOUSA00FS2"]
+}
+```
+
+如果有失败的记录，响应会包含失败详情：
+```json
+{
+  "success": false,
+  "total": 2,
+  "successCount": 1,
+  "failedCount": 1,
+  "successIds": ["FOUSA00FS1"],
+  "failedItems": [
+    {
+      "securityId": "FOUSA00FS2",
+      "error": "解析错误详情"
+    }
+  ]
+}
+```
+
 ### 健康检查
 
 **请求:**
